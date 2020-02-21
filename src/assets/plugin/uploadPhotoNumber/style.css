@@ -1,0 +1,29 @@
+.tranW { background: rgb(256, 256, 256); background: rgba(256, 256, 256, 0.9); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000)"; }
+	
+.close_img_number { }
+	
+.close_80 { width:40px; height:40px; background:url(https://www.koom.me/plugin/uploadPhotoNumber/images/delete-3-1.png) no-repeat center center; cursor:pointer; float:left; margin-top:1px; position: absolute; left: 48px; top: 48px; display:block; opacity:0.5; }
+	
+.close_100 { width:40px; height:40px; background:url(https://www.koom.me/plugin/uploadPhotoNumber/images/delete-3-1.png) no-repeat center center; cursor:pointer; float:left; margin-top:1px; position: absolute; left: 68px; top: 68px; display:block; opacity:0.5; }
+	
+.close_120{ width:40px; height:40px;  background:url(https://www.koom.me/plugin/uploadPhotoNumber/images/delete-3-1.png) no-repeat center center;	cursor:pointer;		float:left;	margin-top:1px;	position: absolute;	left: 88px;	top: 88px; display:block; opacity:0.5; }
+	
+.close_img_number:hover { opacity:1; }
+
+.inputfile {
+  /* visibility: hidden etc. wont work */
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.inputfile:focus + label {
+  /* keyboard navigation */
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+.inputfile + label * {
+  pointer-events: none;
+}
